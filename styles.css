@@ -4,13 +4,14 @@ body{
   font-size: 1em; // 16px = 1em = 100%
   margin: 20px 10px;
   Weights: 400;
+  background-color: white;
 }
+
 img{
   width: 100%;
   border-radius: 10px;
+  align-self: center;
 }
-
-
 #Preparation-time {
   background-color: pink;
 }
@@ -27,6 +28,12 @@ table{
   padding-left: 10px;
   padding-right: 10px;
   margin: 10px;
+  border-radius: 30px;
+  flex-direction: column;
+  display: flex;
+  height: 1190px;
+  width: 600px;
+  margin-left: 400px;
 }
 .attribution {
   font-size: 11px;
